@@ -1,0 +1,32 @@
+{
+  "name": "cordova-admob-mediation-unityads-construct3",
+  "version": "4.4.1",
+  "description": "Cordova AdMob Mediation Unity Ads for Construct 3",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-admob-mediation-unityads-construct3",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "eltonnobrega/cordova-admob-mediation-unityads-construct3",
+  "author": "devktv",
+  "license": "MIT",
+  "keywords": [
+    "admob-plus-cordova",
+	"cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "admob",
+    "unityads",
+    "mediation"
+  ],
+  "bugs": {
+    "url": "https://github.com/devktv/cordova-admob-mediation-unityads-construct3/issues"
+  },
+  "homepage": "https://github.com/devktv/cordova-admob-mediation-unityads-construct3"
+}

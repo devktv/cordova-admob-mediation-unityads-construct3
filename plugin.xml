@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-admob-mediation-unityads-construct3" version="4.4.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>cordova-admob-mediation-unityads-construct3</name>
+    <description>Cordova AdMob Mediation Unity Ads for Construct 3</description>
+
+    <engines>
+        <engine name="cordova" version=">=3" />
+    </engines>
+
+    <platform name="android">
+		<framework src="src/android/plugin.gradle" custom="true" type="gradleReference"/>
+    </platform>
+
+    <platform name="ios">
+        <pods-config ios-min-version="9.0" use-frameworks="true" />
+        <pod id="GoogleMobileAdsMediationUnity" version="4.4.1.0" />
+
+        <!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
+        <dependency id="cordova-plugin-cocoapod-support" />
+    </platform>
+</plugin>
