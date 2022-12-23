@@ -1,6 +1,6 @@
 {
   "name": "cordova-admob-mediation-unityads-construct3",
-  "version": "4.4.1",
+  "version": "4.5.0",
   "description": "Cordova AdMob Mediation Unity Ads for Construct 3",
   "scripts": {
     "version": "sync-package-version --cordova-plugin"
